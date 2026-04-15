@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Ulang Tahun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 50px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #ff4d6d;
+        }
+
+        .details {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .btn {
+            background: #ff4d6d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background: #e63950;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎉 Undangan Ulang Tahun 🎂</h1>
+        <p>Dengan senang hati saya mengundang Anda untuk hadir di acara ulang tahun saya</p>
+
+        <h2>Nama: [Nama Kamu]</h2>
+
+        <div class="details">
+            📅 Tanggal: 20 Mei 2026 <br>
+            ⏰ Waktu: 19.00 WIB <br>
+            📍 Tempat: Rumah Saya
+        </div>
+
+        <p>Kehadiran Anda adalah hadiah terindah bagi saya 😊</p>
+
+        <button class="btn" onclick="alert('Terima kasih! Sampai jumpa di acara 🎉')">
+            Konfirmasi Kehadiran
+        </button>
+    </div>
+
+</body>
+</html>
